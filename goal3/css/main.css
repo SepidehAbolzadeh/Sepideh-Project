@@ -1,0 +1,43 @@
+.alldog{
+    margin: 10px auto;
+    width: 98%;
+    height: 700px;
+    background-color:bisque;
+    border:2px solid green;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.dogs{
+    width: 240px;
+    height:500px;
+    background-color: rgb(186, 138, 190);
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border:2px solid rgb(78, 31, 78);
+    outline: 2px solid yellow;
+}
+
+.imcls{
+    width: 200px;
+    height:200px;
+    margin: 20px 0 10px 20px;
+}
+.pcls{
+    width: 200px;
+    height:350px;
+    text-align: center;
+    margin: 10px 0 10px 20px;
+}
+.name{
+    color:rgb(29, 29, 83);
+    font-size: 20px;
+    text-align: center;
+    border:1px solid white;
+    background-color:darkturquoise;
+    display: inline-block;
+}
+.allh{
+    text-align: center;
+}

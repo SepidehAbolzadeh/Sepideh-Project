@@ -1,0 +1,47 @@
+.fullbody{
+    background-image: url("image/background.jpg");
+    background-size:cover ;
+}
+.mfm{
+    color:chartreuse;
+    text-align: center;
+}
+.imgbox{
+    border:1px solid red;
+    margin:2% 12% 2% 12%;
+    padding:1%
+}
+#imgint , #imgbu , #imgstar , #imgsha , #imggrey{
+    width:200px;
+    height:230px;
+}
+.filmlist{
+    font-size: 1.2rem;
+    background-color: #d1daa2;
+    border: 3px solid hidden;
+    margin : 2% 40% 2% 40%;
+    padding: 2% 1% 2% 1%;
+}
+.filmform{
+    font-size:1.5rem;
+    color:black;
+    border:1px solid hidden;
+    margin: 5% 30% 5% 30%;
+    padding: 2% 5% 2% 5%;
+}
+
+.filmtable{
+    margin: 5% 20% 5% 20%;
+}
+
+tr , th , td{
+    border:3px solid black;
+    padding:10px;
+}
+td,tr{
+    background-color: #d6b7b7;
+}
+th {
+    background-color: #b67979;
+    color:rgb(109, 38, 150);
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>goal2</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="fullbody">
+        <div class="mfm">
+            <h2><i>My favorite movies:</i></h2>
+        </div>
+
+        <div class="filmlist">
+            <dl>
+                <li>Interstellar</li>
+                <li>A Beautiful Mind</li>
+                <li>A star is born</li>
+                <li>Greyhound</li>
+                <li>The Shawshank Redemption</li>
+            </dl>
+        </div>
+
+        <div class="imgbox">
+                <img id="imgint" src="image/int.jpg">
+                <img id="imgbu" src="image/bu.jpg">
+                <img id="imgstar" src="image/star.jpg">
+                <img id="imgsha" src="image/sha.jpg">
+                <img id="imggrey" src="image/Grey.jpg">
+        </div>
+
+        <div class="filmform">
+            <form>
+                <fieldset>
+                    <legend><b>Movie Box</b></legend>
+                <label for="movie">choose your favorite movie?</label>
+                <select id="movie" name="movie" size="3">
+                <option value="A Beautiful Mind">A Beautiful Mind</option>
+                <option value="A star is born">A star is born</option>
+                <option value="Interstellar">Interstellar</option>
+                <option value="Greyhound">Greyhound</option>
+                <option value="The Shawshank Redemption">The Shawshank Redemption</option>
+                </select>
+                <input type="button" onclick="alert('GOOD')" value="submit">
+            </fieldset>
+            </form>
+        </div>
+
+        <div>
+            <table class="filmtable">    
+                <tr class="row1">
+                    <th>Name</th>
+                    <th>Direct By</th>
+                    <th>country</th>
+                    <th>Star</th>
+                    <th>Year</th>
+                    <th>IMDb</th>
+                </tr>
+                <tr>
+                    <th class="col1"><a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="_blank">Interstellar</a></th>
+                    <td>Christopher Nolan</td>
+                    <td>United Kingdom & United States</td>
+                    <td>Matthew Mc Conanghey</td>
+                    <td>2014</td>
+                    <td>8.7/10</td>
+                </tr>
+                <tr>
+                    <th class="col1"><a href="https://en.wikipedia.org/wiki/A_Beautiful_Mind_(film)" target="_blank">A Beautiful Mind</a></th>
+                    <td>Ron Howard</td>
+                    <td>United States</td>
+                    <td>Russell Crowe</td>
+                    <td>2001</td>
+                    <td>8.2/10</td>
+                </tr>
+                <tr>
+                    <th class="col1"><a href="https://en.wikipedia.org/wiki/A_Star_Is_Born_(2018_film)" target="_blank">A star is born</a></th>
+                    <td>Bradley Cooper</td>
+                    <td>United States</td>
+                    <td>Lady Gaga</td>
+                    <td>2018</td>
+                    <td>7.6/10</td>
+                </tr>
+                <tr>
+                    <th class="col1"><a href="https://en.wikipedia.org/wiki/Greyhound_(film)" target="_blank">Greyhound</a></th>
+                    <td>Aaron Schneider</td>
+                    <td>United States</td>
+                    <td>Tom Hanks</td>
+                    <td>2020</td>
+                    <td>7/10</td>
+                </tr>
+                <tr>
+                    <th class="col1"><a href="https://en.wikipedia.org/wiki/The_Shawshank_Redemption" target="_blank">The Shawshank Redemption</a></th>
+                    <td>Frank Darabont</td>
+                    <td>United States</td>
+                    <td>Tim Robbins</td>
+                    <td>1994</td>
+                    <td>9.3/10</td>
+                </tr>
+           </table>
+        </div>
+    </body>
+</html>
