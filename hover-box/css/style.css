@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/background1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*top-card*/
+.top-card {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  outline: 2px solid peru;
+  box-shadow: -10px 10px 30px peru, 10px -10px 30px peru, -10px -10px 30px peru,
+    10px 10px 30px peru;
+  background-image: url(../image/background-bottom.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  transition: all 1s;
+}
+.top-card-icon {
+  font-size: 90px;
+  text-align: center;
+  color: rgb(63, 41, 19);
+  padding: 30px;
+  backdrop-filter: blur(3px);
+  transition: all 0.1s 1s;
+}
+.top-card-text {
+  font-family: Dokdo;
+  text-align: center;
+  color: rgb(39, 24, 10);
+  text-shadow: 2px 2px 5px white;
+  font-size: 0;
+}
+/*hover*/
+.top-card:hover {
+  width: 400px;
+  height: 400px;
+  transition: all 1s;
+}
+.top-card:hover .top-card-text {
+  font-size: 30px;
+  padding: 200px 80px 20px;
+  transition: all 0.1s 1s;
+  font-weight: bolder;
+}
+.top-card:hover .top-card-icon {
+  font-size: 0;
+  transition: all 0s;
+}
+/*end-top-card*/
+
+/*first-card*/
+.first-card {
+  display: inline-block;
+  width: 300px;
+  height: 80px;
+  backdrop-filter: blur(5px);
+  margin: 80px 30px 0 150px;
+  border: 2px solid rgb(121, 78, 35);
+  box-shadow: 0 20px 30px peru;
+  border-radius: 50px 10px 100px 50px;
+  transition: all 0.5s;
+}
+.first-card-heading {
+  text-align: center;
+  font-family: Dokdo;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.first-card-text {
+  text-align: center;
+  font-family: Dokdo;
+  color: white;
+  padding: 300px 20px 20px;
+  font-size: 0;
+}
+/*hover*/
+.first-card:hover {
+  width: 350px;
+  height: 550px;
+  border-radius: 40px;
+  background-image: url(../image/child2.jfif);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+  box-shadow: -3px 3px 10px peru, 3px -3px 10px peru, -3px -3px 10px peru,
+    3px 3px 10px peru;
+}
+.first-card:hover .first-card-heading {
+  box-shadow: none;
+  backdrop-filter: none;
+  border: 0;
+  font-size: 0;
+}
+.first-card:hover .first-card-text {
+  font-size: 16px;
+  padding-top: 445px;
+  border-bottom: 2px solid peru;
+  box-shadow: inset 0 -70px 20px rgb(43, 26, 10);
+  border-radius: 40px;
+  transition: all 0.5s;
+}
+/*end-first-card*/
+
+/*second-card*/
+.second-card {
+  display: inline-block;
+  width: 300px;
+  height: 80px;
+  backdrop-filter: blur(5px);
+  border: 2px solid rgb(121, 78, 35);
+  box-shadow: 0 20px 30px peru;
+  border-radius: 100px 20px 100px 20px;
+  transition: all 0.5s;
+}
+.second-card-heading {
+  text-align: center;
+  font-family: Dokdo;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.second-card-text {
+  text-align: center;
+  font-family: Dokdo;
+  color: white;
+  padding: 300px 20px 20px;
+  font-size: 0;
+}
+/*hover*/
+.second-card:hover {
+  width: 350px;
+  height: 550px;
+  border-radius: 40px;
+  background-image: url(../image/teenager3.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+  box-shadow: -3px 3px 10px peru, 3px -3px 10px peru, -3px -3px 10px peru,
+    3px 3px 10px peru;
+}
+.second-card:hover .second-card-heading {
+  box-shadow: none;
+  backdrop-filter: none;
+  border: 0;
+  font-size: 0;
+}
+.second-card:hover .second-card-text {
+  font-size: 16px;
+  padding-top: 455px;
+  border-bottom: 2px solid peru;
+  box-shadow: inset 0 -70px 20px rgb(43, 26, 10);
+  border-radius: 40px;
+  transition: all 0.5s;
+}
+/*end-second-card*/
+
+/*third-card*/
+.third-card {
+  display: inline-block;
+  width: 300px;
+  height: 80px;
+  margin-left: 30px;
+  backdrop-filter: blur(5px);
+  border: 2px solid rgb(121, 78, 35);
+  box-shadow: 0 20px 30px peru;
+  border-radius: 100px 50px 50px 10px;
+  transition: all 0.5s;
+}
+.third-card-heading {
+  text-align: center;
+  font-family: Dokdo;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.third-card-text {
+  text-align: center;
+  font-family: Dokdo;
+  color: white;
+  padding: 300px 20px 20px;
+  font-size: 0;
+}
+/*hover*/
+.third-card:hover {
+  width: 350px;
+  height: 550px;
+  border-radius: 40px;
+  background-image: url(../image/now2.jfif);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+  box-shadow: -3px 3px 10px peru, 3px -3px 10px peru, -3px -3px 10px peru,
+    3px 3px 10px peru;
+}
+.third-card:hover .third-card-heading {
+  box-shadow: none;
+  backdrop-filter: none;
+  border: 0;
+  font-size: 0;
+}
+.third-card:hover .third-card-text {
+  font-size: 16px;
+  padding-top: 435px;
+  border-bottom: 2px solid peru;
+  box-shadow: inset 0 -70px 20px rgb(43, 26, 10);
+  border-radius: 40px;
+  transition: all 0.5s;
+}
+/*end-third-card*/
