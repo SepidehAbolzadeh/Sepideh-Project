@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-image: url(../images/5272.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 18px;
+  text-align: justify;
+  color: rgb(112, 10, 70);
+}
+.top-box {
+  width: 1000px;
+  height: 350px;
+  border: 3px solid violet;
+  border-radius: 10px;
+  margin: 50px auto;
+  padding: 10px;
+  overflow: auto;
+}
+.top-box-img1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 3px solid violet;
+  float: right;
+}
+.second-paragraph {
+  clear: right;
+}
+.top-box-img2 {
+  width: 200px;
+  height: 190px;
+  border-radius: 10px;
+  border: 3px solid violet;
+  float: left;
+}
+.top-left-box {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/230665.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 3px solid violet;
+  filter: blur(5px);
+  position: relative;
+  top: 70px;
+  left: 450px;
+  transition: all 1s;
+}
+.top-left-box:hover {
+  filter: none;
+  z-index: 2;
+  box-shadow: 5px -5px 20px yellow, -5px 5px 20px yellow;
+  transform: scale(1.5, 1.5);
+  transition: all 1s;
+}
+.top-right-box {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/230645.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 3px solid violet;
+  filter: blur(5px);
+  position: relative;
+  top: -230px;
+  left: 640px;
+  z-index: 0;
+  transition: all 1s;
+}
+.top-right-box:hover {
+  filter: none;
+  z-index: 2;
+  box-shadow: 5px -5px 20px yellow, -5px 5px 20px yellow;
+  transform: scale(1.5, 1.5);
+  transition: all 1s;
+}
+.bottom-left-box {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/230650.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 3px solid violet;
+  filter: blur(5px);
+  position: relative;
+  top: -350px;
+  left: 640px;
+  transition: all 1s;
+}
+.bottom-left-box:hover {
+  filter: none;
+  z-index: 2;
+  box-shadow: 5px -5px 20px yellow, -5px 5px 20px yellow;
+  transform: scale(1.5, 1.5);
+  transition: all 1s;
+}
+.bottom-right-box {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 3px solid violet;
+  filter: blur(5px);
+  position: relative;
+  top: -650px;
+  left: 460px;
+  transition: all 1s;
+}
+.bottom-right-box:hover {
+  filter: none;
+  z-index: 2;
+  box-shadow: 5px -5px 20px yellow, -5px 5px 20px yellow;
+  transform: scale(1.5, 1.5);
+  transition: all 1s;
+}
+.center-box {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/Animal\ Shirt\ Women.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 3px solid violet;
+  position: relative;
+  top: -990px;
+  left: 600px;
+  z-index: 1;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, yellow, pink);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track {
+  background: pink;
+  border: 1px solid violet;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: inset 2px 2px 5px #54279c, inset -2px -2px 5px #4d268d;
+}
